@@ -5,7 +5,7 @@ except:
     print("Voce não digitou um valor inteiro")
     exit()
 
-rest = result % int(2)
+rest = result % 2
 
 if rest == 0:
     print("Número par")
