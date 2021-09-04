@@ -1,7 +1,7 @@
 value = input("Digite um número inteiro: ")
 
 #valida somente números positivos5
-if not value.isnumeric():
+if not value.isdigit():
     print("Você digitou um valor não inteiro")
     exit()
 
