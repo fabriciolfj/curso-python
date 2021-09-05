@@ -39,11 +39,11 @@ print(nome_formatado)
 
 nome_1 = 'Fabricio'
 sobre_nome = 'Jacob'
-nome_formatado2 = '{0:$>10} {1:$<7}'.format(nome_1, sobre_nome)
+nome_formatado2 = '{0:$>10} {1:$<7}'.format(nome_1, sobre_nome) #colocar 10 $ a direita no primeiro index (descontando ja o tamanho da string), e 7 $ no segundo index (descontando ja o tamanho da string)
 print(nome_formatado2)
 
 
-nome_2 = nome.ljust(30, '#')
+nome_2 = nome.ljust(30, '#') #30 # a direita, ja descontando o tamanho da string, por exemplo: string possui 10, vou colocar 20 $
 print(nome_2)
 print(nome_2.lower())
 print(nome_2.upper())
