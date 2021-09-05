@@ -15,7 +15,6 @@ def is_int(val):
     return False
 
 
-
 def is_number(val):
     return is_int(val) or is_float(val)
 
