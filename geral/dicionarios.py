@@ -4,6 +4,7 @@ cadastro = {
     "formacao": ['Cientista da computacao', 'Técnico em TI']
 }
 
+
 print(len(cadastro))
 print(cadastro)
 print(cadastro.get("idade"))
