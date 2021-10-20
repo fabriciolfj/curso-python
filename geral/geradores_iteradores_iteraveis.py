@@ -41,3 +41,8 @@ lista = {x for x in range(10)} #cria um conjunto
 print(type(lista))
 lista = (x for x in range(10)) #cria um gerador
 print(type(lista))
+
+list_new = [x for x in range(0,100)]
+
+for value in list_new:
+    print(value)
